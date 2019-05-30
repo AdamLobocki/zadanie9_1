@@ -12,7 +12,7 @@ public class Main {
         }
 
         for (int i = 0; i <=numbersRandom.length * 2 - 1; i++) {
-            if(i<=9){
+            if(i<numbersRandom.length){
                 System.out.print(numbersRandom[i] + ", ");
 
             }
